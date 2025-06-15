@@ -2,7 +2,7 @@
   "name": "tiktokdl-api",
   "version": "1.0.0",
   "scripts": {
-    "build": "coffee -c index.coffee",
+    "build": "npx coffee -c index.coffee",
     "start": "node index.js"
   },
   "dependencies": {
