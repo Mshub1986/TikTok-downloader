@@ -2,13 +2,12 @@
   "name": "tiktokdl-api",
   "version": "1.0.0",
   "scripts": {
-    "build": "npx coffee -c index.coffee",
     "start": "node index.js"
   },
   "dependencies": {
     "express": "^4.18.2",
     "cors": "^2.8.5",
     "btch-downloader": "^4.0.15",
-    "coffeescript": "^2.7.0"
+    "body-parser": "^1.20.2"
   }
 }
